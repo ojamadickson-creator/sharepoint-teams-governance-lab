@@ -1,7 +1,6 @@
 # Execution Checklist
 
-Use this checklist as the master execution record. Complete the phases in order and check each item only after the corresponding screenshot has been captured.
-
+Use this checklist as the master execution record. 
 ## Before You Start
 
 - [ ] Confirm access to the Microsoft 365 admin center
