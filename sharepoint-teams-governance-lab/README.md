@@ -154,32 +154,16 @@ sharepoint-teams-governance-lab/
 
 ## Execution Model
 
-Your only execution responsibilities are:
+My execution responsibilities are:
 
-1. Follow each document in numerical order.
-2. Perform the GUI and PowerShell steps in your Microsoft 365 trial tenant.
+1. I followed each document in numerical order.
+2. Perform the GUI and PowerShell steps in my Microsoft 365 trial tenant.
 3. Capture the screenshots listed in each phase.
-4. Save screenshots using the exact filenames provided.
+4. Save screenshots.
 5. Place the files in `assets/screenshots/`.
 6. Complete the final validation checklist.
 
-The documentation uses explicit portal paths, expected results, validation checks, and screenshot filenames so the project can be completed without improvisation.
 
-## Evidence Standard
-
-Each screenshot should show:
-
-- The relevant Microsoft 365 portal or PowerShell window
-- The configured object or setting
-- Enough context to prove the action was completed
-- No production data, personal data, secrets, tokens, or external tenant identifiers
-
-Recommended screenshot format:
-
-- PNG
-- Minimum width: 1600 pixels where practical
-- Clear browser zoom, preferably 100%
-- Filename exactly as specified in each phase
 
 ## Microsoft Documentation References
 
