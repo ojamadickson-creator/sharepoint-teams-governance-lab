@@ -30,13 +30,13 @@ https://admin.microsoft.com
 
 ## Step 2 — Review or Create Test Users
 
-Use the following naming pattern. Replace `<yourtenant>` with your actual tenant domain.
+Use the following naming pattern. Replace `<beginningdimension>` with your actual tenant domain.
 
 | User | Purpose |
 |---|---|
-| `ops-admin@<yourtenant>.onmicrosoft.com` | Administrative account |
-| `ana.silva@<yourtenant>.onmicrosoft.com` | Internal operations team member |
-| `guest.user@<external-domain>.com` | Optional external guest; not required for the core project |
+| `ops-admin@<beginningdimension>.onmicrosoft.com` | Administrative account |
+| `ana.silva@<beginningdimension>.onmicrosoft.com` | Internal operations team member |
+
 
 To review users:
 
