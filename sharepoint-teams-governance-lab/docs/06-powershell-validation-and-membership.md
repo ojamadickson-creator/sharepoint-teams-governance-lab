@@ -6,7 +6,7 @@ Use the Microsoft Teams PowerShell module to validate the team and add the inter
 
 ## Scope
 
-This is the PowerShell portion of the project. It should represent approximately 10% of the total hands-on effort.
+This is the PowerShell portion of the project. 
 
 ## Step 1 — Open PowerShell on CLIENT01
 
