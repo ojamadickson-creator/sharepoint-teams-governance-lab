@@ -88,11 +88,3 @@ Use this checklist as the master execution record.
 - [ ] Move all screenshots into `assets/screenshots/`
 - [ ] Update this checklist
 
-## Completion Criteria
-
-The project is complete when:
-
-- All phases are marked complete
-- All 25 screenshots exist in `assets/screenshots/`
-- The SharePoint site, Teams workspace, permissions, and PowerShell validation all match the expected results
-- No credentials, tokens, or sensitive tenant information appear in the repository
