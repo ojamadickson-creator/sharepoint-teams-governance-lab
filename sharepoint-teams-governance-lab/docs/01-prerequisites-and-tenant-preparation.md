@@ -10,7 +10,7 @@ This phase is completed entirely through the Microsoft 365 admin center and Powe
 
 ## Required Access
 
-Your administrative account requires:
+Administrative account requires:
 
 - SharePoint Administrator
 - Teams Administrator
