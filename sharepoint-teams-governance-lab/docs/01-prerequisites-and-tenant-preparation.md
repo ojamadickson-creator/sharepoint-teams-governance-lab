@@ -46,9 +46,6 @@ To review users:
 4. Enter the user details and assign a license.
 5. Select **Finish adding**.
 
-### Expected Result
-
-Both internal users appear in **Active users**.
 
 ### Screenshot
 
@@ -70,10 +67,6 @@ The screenshot should show the **Active users** page with both internal accounts
    - Teams Administrator
 5. If either role is missing, add it and save.
 
-### Expected Result
-
-The admin account has both required roles.
-
 ### Screenshot
 
 Capture:
@@ -93,9 +86,6 @@ The screenshot should show the role assignments for the administrative account.
 5. Open **Licenses and apps**.
 6. Confirm that the user has a license that includes Teams and SharePoint.
 
-### Expected Result
-
-Both the administrator and test user have licenses that include SharePoint and Teams.
 
 ### Screenshot
 
@@ -131,9 +121,6 @@ Confirm the module is installed:
 Get-Module MicrosoftTeams -ListAvailable
 ```
 
-### Expected Result
-
-The MicrosoftTeams module appears in the installed module list.
 
 ## Phase Validation
 
