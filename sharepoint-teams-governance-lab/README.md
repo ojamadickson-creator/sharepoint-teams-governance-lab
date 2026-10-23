@@ -125,7 +125,7 @@ After completing this project, you will have:
 - Internal-only sharing configured at the site level
 - A connected Microsoft Teams workspace with operational channels
 - A test user added as a Teams member through PowerShell
-- A complete screenshot evidence pack for GitHub publication
+- A complete screenshot evidence pack 
 
 ## Repository Structure
 
