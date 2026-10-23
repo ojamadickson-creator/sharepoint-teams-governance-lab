@@ -8,13 +8,11 @@
 
 This project demonstrates hands-on Microsoft 365 administration skills by building and governing a SharePoint Online team site and its connected Microsoft Teams workspace.
 
-The lab is intentionally GUI-first: approximately **90% of the work is completed through the Microsoft 365, SharePoint, and Teams admin centers**, while approximately **10% uses PowerShell** for validation and controlled membership administration.
-
-The project creates a fictional **Operations Collaboration Hub** for an organization. You will provision the SharePoint site, design its document library and metadata, apply least-privilege permissions, restrict external sharing, connect the site to Microsoft Teams, and validate the completed environment with PowerShell.
+The project creates an **Operations Collaboration Hub** for an organization. I will provision the SharePoint site, design its document library and metadata, apply least-privilege permissions, restrict external sharing, connect the site to Microsoft Teams, and validate the completed environment with PowerShell.
 
 ## Lab Environment
 
-This project uses your existing hybrid-capable on-premises lab and Microsoft 365 trial tenant.
+This project uses my existing hybrid-capable on-premises lab and Microsoft 365 trial tenant.
 
 ```text
 Internet
@@ -37,7 +35,61 @@ Router
 | Windows 11                                    |
 | 192.168.10.20                                 |
 | DNS: DC01 and DC02                            |
+| Administration workstation                    |
+| Browser + PowerShell                          |
 ------------------------------------------------
+        |
+        | HTTPS / Internet
+        | Microsoft 365 authentication and administration
+        v
+================================================================
+|                Microsoft 365 Trial Tenant                    |
+|              <yourtenant>.onmicrosoft.com                    |
+|                                                              |
+|  Microsoft Entra ID                                          |
+|  ------------------------------------------------------------ |
+|  | ops-admin          ana.silva        Optional guest       | |
+|  | Global/SharePoint  Licensed user    External identity     | |
+|  | Teams Administrator                                      | |
+|  ------------------------------------------------------------ |
+|                    |                                         |
+|                    | Microsoft 365 Group                     |
+|                    v                                         |
+|  Operations Collaboration Hub                                |
+|  ------------------------------------------------------------ |
+|  | Microsoft 365 Group: operations-collaboration-hub        | |
+|  ------------------------------------------------------------ |
+|            |                             |                   |
+|            | Group-backed site           | Group-backed team |
+|            v                             v                   |
+|  SharePoint Online                   Microsoft Teams         |
+|  ------------------------------------------------------------ |
+|  | Operations Collaboration Hub        Operations Collab Hub | |
+|  | Team site                           Team workspace        | |
+|  |                                                           | |
+|  | Documents library                   Channels:             | |
+|  |  - 01 - SOPs                          - General           | |
+|  |  - 02 - Incident Reports              - Daily Operations  | |
+|  |  - 03 - Vendor Documents              - Incidents         | |
+|  |  - 04 - Templates                     - Vendor Coordination|
+|  |  - 05 - Archived                                          | |
+|  |                                                           | |
+|  | Metadata: Document Type             Documents tab:         | |
+|  | Choices: SOP, Incident Report,      SharePoint Documents  | |
+|  |          Vendor Document, Template  library                | |
+|  |                                                           | |
+|  | Permissions:                        Membership:            | |
+|  |  - ops-admin: Owner                 - ops-admin: Owner     | |
+|  |  - ana.silva: Member                - ana.silva: Member    | |
+|  |  - External sharing: Internal only  - PowerShell-managed   | |
+|  ------------------------------------------------------------ |
+|                                                              |
+|  Administrative interfaces used from CLIENT01:                |
+|  - Microsoft 365 admin center: admin.microsoft.com            |
+|  - SharePoint admin center: admin.microsoft.com/sharepoint    |
+|  - Microsoft Teams: teams.microsoft.com                        |
+|  - PowerShell: MicrosoftTeams module / Connect-MicrosoftTeams  |
+================================================================
 ```
 
 | Component | Role in this project |
