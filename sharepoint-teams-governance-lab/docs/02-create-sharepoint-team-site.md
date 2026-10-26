@@ -48,7 +48,7 @@ The screenshot should show the **Active sites** page with the **Create** button 
 | Field | Value |
 |---|---|
 | Site name | `Operations Collaboration Hub` |
-| Group email | `operations-collaboration-hub` |
+| Group email | `operations-collaborationhub` |
 | Site owner | Your administrative account |
 | Language | English or Portuguese, according to your preference |
 | Time zone | Western Europe Standard Time, if offered |
@@ -77,7 +77,7 @@ Operations Collaboration Hub
 The site URL should resemble:
 
 ```text
-https://<yourtenant>.sharepoint.com/sites/operations-collaboration-hub
+https://beginningdimension.sharepoint.com/sites/Operations-CollaborationHub
 ```
 
 ### Expected Result
