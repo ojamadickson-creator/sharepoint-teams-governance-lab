@@ -123,6 +123,9 @@ You can explore the step-by-step validation evidence captured during the executi
 | **23** | [23-final-site-validation](assets/screenshots/23-final-site-validation/) | Final SharePoint governance check |
 | **24** | [24-final-teams-validation](assets/screenshots/24-final-teams-validation/) | Final Teams workspace check |
 | **25** | [25-final-permissions-validation](assets/screenshots/25-final-permissions-validation/) | Final least-privilege audit confirmation |
+
+
+
 | Component | Role in this project |
 |---|---|
 | DC01 | Existing on-premises domain controller; not required for SharePoint/Teams configuration |
