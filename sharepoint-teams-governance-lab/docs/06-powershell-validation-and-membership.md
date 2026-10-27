@@ -85,7 +85,7 @@ The screenshot should show the returned team properties.
 Run:
 
 ```powershell
-Add-TeamUser -GroupId $Team.GroupId -User "ana.silva@<yourtenant>.onmicrosoft.com" -Role Member
+Add-TeamUser -GroupId $Team.GroupId -User "ana.silva@beginningdimension.onmicrosoft.com" -Role Member
 ```
 
 Microsoft documents `Add-TeamUser` as adding an owner or member to the team and to the unified group that backs it.
