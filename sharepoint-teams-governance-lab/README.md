@@ -92,6 +92,37 @@ Router
 ================================================================
 ```
 
+
+## 📸 Lab Evidence & Screenshots
+
+You can explore the step-by-step validation evidence captured during the execution of this lab:
+
+| Phase / Step | Evidence Folder Link | Description |
+| :--- | :--- | :--- |
+| **01** | [01-m365-users](assets/screenshots/01-m365-users/) | M365 user provisioning (ops-admin, ana.silva) |
+| **02** | [02-admin-roles](assets/screenshots/02-admin-roles/) | Assigned administrative roles |
+| **03** | [03-licenses](assets/screenshots/03-licenses/) | Assigned Microsoft 365 trial licenses |
+| **04** | [04-create-team-site](assets/screenshots/04-create-team-site/) | SharePoint team site creation process |
+| **05** | [05-site-created](assets/screenshots/05-site-created/) | Confirmation of SharePoint site deployment |
+| **06** | [06-site-homepage](assets/screenshots/06-site-homepage/) | Site homepage view |
+| **07** | [07-document-library](assets/screenshots/07-document-library/) | Document library setup |
+| **08** | [08-folders-created](assets/screenshots/08-folders-created/) | Operational folders (SOPs, Incident Reports, etc.) |
+| **09** | [09-site-column](assets/screenshots/09-site-column/) | Custom metadata column (Document Type) |
+| **10** | [10-custom-view](assets/screenshots/10-custom-view/) | Custom operational view configuration |
+| **11** | [11-site-membership](assets/screenshots/11-site-membership/) | Site members and owners configuration |
+| **12** | [12-add-member](assets/screenshots/12-add-member/) | Adding test user membership |
+| **13** | [13-site-sharing-policy](assets/screenshots/13-site-sharing-policy/) | Reviewing default sharing policies |
+| **14** | [14-external-sharing-disabled](assets/screenshots/14-external-sharing-disabled/) | Enforcing internal-only sharing rules |
+| **15** | [15-create-team-from-group](assets/screenshots/15-create-team-from-group/) | Connecting M365 Group to Microsoft Teams |
+| **17** | [17-channels-created](assets/screenshots/17-channels-created/) | Operational channels configuration |
+| **18** | [18-sharepoint-tab](assets/screenshots/18-sharepoint-tab/) | Embedding SharePoint document library tab in Teams |
+| **19** | [19-connect-microsoftteams](assets/screenshots/19-connect-microsoftteams/) | PowerShell session authentication |
+| **20** | [20-team-validation](assets/screenshots/20-team-validation/) | PowerShell team object retrieval validation |
+| **21** | [21-add-team-user](assets/screenshots/21-add-team-user/) | Adding user via PowerShell `Add-TeamUser` |
+| **22** | [22-team-members-validation](assets/screenshots/22-team-members-validationQueryResult/) | Verifying team membership via CLI/PS |
+| **23** | [23-final-site-validation](assets/screenshots/23-final-site-validation/) | Final SharePoint governance check |
+| **24** | [24-final-teams-validation](assets/screenshots/24-final-teams-validation/) | Final Teams workspace check |
+| **25** | [25-final-permissions-validation](assets/screenshots/25-final-permissions-validation/) | Final least-privilege audit confirmation |
 | Component | Role in this project |
 |---|---|
 | DC01 | Existing on-premises domain controller; not required for SharePoint/Teams configuration |
