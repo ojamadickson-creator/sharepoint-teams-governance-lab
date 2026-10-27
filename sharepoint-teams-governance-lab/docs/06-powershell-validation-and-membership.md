@@ -56,10 +56,8 @@ The screenshot should show the successful connection output.
 Run the following commands. Replace `<yourtenant>` with your tenant domain if needed.
 
 ```powershell
-$Team = Get-Team -DisplayName "Operations Collaboration Hub"
-
-Get-Team -GroupId $Team.GroupId |
-    Select-Object DisplayName, Description, Visibility, GroupId
+$Team = (Get-Team -DisplayName "Operations Collaboration Hub")[0]
+Get-Team -GroupId $Team.GroupId | Select-Object DisplayName, Description, Visibility, GroupId
 ```
 
 ### Expected Result
