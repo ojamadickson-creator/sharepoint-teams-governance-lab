@@ -34,6 +34,7 @@ Operations Collaboration Hub
 
 7. Select the group associated with the SharePoint site.
 8. Complete the team creation.
+9. The easiest way is to create a Microsoft 365 group in Microsoft 365 admin center and it will automatically create a SharePoint site and a Teams group.
 
 Because Teams are backed by Microsoft 365 Groups, selecting the existing group connects the new team to the existing SharePoint team site rather than creating a separate disconnected workspace.
 
